@@ -1,6 +1,6 @@
 services:
   inference:
-    container_name: inference-basic-eth-pred
+    container_name: inference
     build: .
     command: python -u /app/app.py
     ports:
